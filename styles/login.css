@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bgc_cinzaEscuro{
+    background-color: #333333;
+}
+.bgc_amarelo{
+    background-color: #FFD21D;
+}
+.bgc_roxo{
+    background-color: #552583;
+}
+.bgc_cinzaClaro{
+    background-color: #C4C4C4;
+}
+.bgc_branco{
+    background-color: #FFFFFF;
+}
+
+.color_cinzaEscuro{
+    color: #333333;
+}
+.color_amarelo{
+    color: #FFD21D;
+}
+.color_roxo{
+   color: #552583;
+}
+.color_cinzaClaro{
+    color: #C4C4C4;
+}
+.color_branco{
+    color: #FFFFFF;
+}
+
+.btn-primary{
+    border: 1px solid #333333;
+    background-color: #333333;
+
+}
+.btn-primary:hover{
+    background-color: #552583;
+    border: 1px solid #552583;
+
+}
+.btn-primary:focus, .btn-primary:active{
+    background-color: #552583;
+    border: 1px solid #552583;
+    outline: none;
+    box-shadow: none;
+}
+.btn-primary:active:focus{
+    background-color: #552583;
+    border: 1px solid #552583;
+    outline: none;
+    box-shadow: none;
+}
+.btn-light:hover{
+    background-color: #C4C4C4;
+}
+#logo{
+    max-width: 100px;
+}
+
+
+@media(min-width: 992px){
+    .container{
+        width: 40% !important;
+    }
+}
+/*adicionar logo*/
+/*
+FFD21F
+552583
+333333
+C4C4C4
+FFFFFF
+*/
